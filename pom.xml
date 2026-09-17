@@ -29,7 +29,7 @@
 
         <!-- SonarQube configuration -->
         <sonar.host.url>http://34.207.147.162:9000</sonar.host.url>
-        <sonar.token>squ_869d62e2673ed8c2a3d53b2623f5b803e3b4b728</sonar.token>
+        <sonar.login>squ_869d62e2673ed8c2a3d53b2623f5b803e3b4b728</sonar.login>
     </properties>
 
     <dependencies>
@@ -96,17 +96,13 @@
         <repository>
             <id>nexus</id>
             <name>KK FUNDA Releases Nexus Repository</name>
-            <url>
-                 http://98.92.68.154:8081/repository/jio-release/
-            </url>
+            <url>http://98.92.68.154:8081/repository/jio-release/</url>
         </repository>
 
         <snapshotRepository>
             <id>nexus</id>
             <name>KK FUNDA Snapshot Nexus Repository</name>
-            <url>
-                http://98.92.68.154:8081/repository/jio-snapshort/
-            </url>
+            <url>http://98.92.68.154:8081/repository/jio-snapshot/</url>
         </snapshotRepository>
 
     </distributionManagement>
